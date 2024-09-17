@@ -38,6 +38,7 @@ main {
   "weekly weekly"
   "ia aside";
 }
+
 .container {
   padding-inline: 32px;
   max-width: 1280px;
@@ -60,6 +61,7 @@ h1, h2, h3{
   font: inherit;
 }
 
+/* utility-first */
 .grid {
   display: grid;
   position: relative;
