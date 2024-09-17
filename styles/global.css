@@ -27,22 +27,6 @@ body{
   background-color: var(--bg-color);
 }
 
-main {
-  margin-top: 40px;
-  row-gap: 88px;
-  column-gap: 32px;
-  grid-template-columns: 2fr 1.4fr;
-
-  grid-template-areas: 
-  "box box"
-  "weekly weekly"
-  "ia aside";
-}
-
-img {
-  max-width: 100%;
-}
-
 a {
   text-decoration: none;
   color: inherit;
@@ -56,26 +40,16 @@ h1, h2, h3{
   font: inherit;
 }
 
+img {
+    max-width: 100%;
+}
+
 .container {
     padding-inline: 32px;
     max-width: 1280px;
     margin-inline: auto;
-  }
+}
 
-/* utility-first */
-.grid {
-    display: grid;
-    position: relative;
-  }
-  .grid-flow-col {
-    grid-auto-flow: column;
-  }
-  .grid-cols-2 {
-    grid-template-columns: 1fr 1fr;
-  }
-  .gap-16{
-    gap: 16px;
-  }
-  .gap-32{
-    gap: 32px;
-  }
+main {
+    margin-top: 40px;
+}

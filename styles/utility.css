@@ -1,17 +1,16 @@
 /* utility-first */
 .grid {
-    display: grid;
-    position: relative;
-  }
-  .grid-flow-col {
-    grid-auto-flow: column;
-  }
-  .grid-cols-2 {
+  display: grid;
+}
+
+.grid-flow-col {
+  grid-auto-flow: column;
+}
+
+.grid-cols-2 {
     grid-template-columns: 1fr 1fr;
-  }
-  .gap-16{
+}
+
+.gap-16 {
     gap: 16px;
-  }
-  .gap-32{
-    gap: 32px;
-  }
+}
