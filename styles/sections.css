@@ -23,6 +23,7 @@ section header {
 }
 
 #featured {
+    margin-top: 2rem;
     grid-area: featured;
     img {
         height: 100%;
