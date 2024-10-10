@@ -47,6 +47,7 @@ img {
 }
 
 .container {
+  max-width: 37rem; /* largura maxima do container é a mesma das imgs (para q a sombra não exceda a largura da img na 1º section */
   padding-inline: 1rem;
   margin-inline: auto;
 }
@@ -77,6 +78,7 @@ main {
 
 @media (width >= 80em) {
   .container {
+    max-width: unset; /* retirei a largura que foi predefinada para responsividade mobile */
     padding-inline: 2rem;
     margin-inline: auto;
   }

@@ -13,7 +13,7 @@
         flex-direction: unset;
         grid-template-columns: unset;
         grid-auto-flow: unset;
-        gap: 5rem;
+        gap: 2rem;
     }
 }
 
