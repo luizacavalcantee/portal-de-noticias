@@ -73,7 +73,7 @@ section header {
         }
     }
     
-    @media (width >= 80em) {
+    @media (min-width: 80em) {
         margin-block: 2rem 0;
 
         & #main-image {
@@ -133,7 +133,7 @@ section header {
         }
     }
 
-    @media (width >= 80em) {
+    @media (min-width: 80em) {
         figure {
             margin-bottom: unset;
 
@@ -189,7 +189,7 @@ section header {
         }
     }
 
-    @media (width >= 80em) {
+    @media (min-width: 80em) {
         article {
             grid-template-columns: unset;
             img {
@@ -211,7 +211,7 @@ aside {
         margin-top: 1rem;
     }
 
-    @media (width >= 80em) {
+    @media (min-width: 80em) {
         #ads {
             margin-top: unset;
         }
@@ -255,7 +255,7 @@ aside {
   
     }
     
-    @media (width >= 80em) {
+    @media (min-width: 80em) {
         margin-bottom: 4rem;
         article {
             img {
