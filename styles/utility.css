@@ -1,4 +1,4 @@
-.grid-container {
+.grid-container { 
     display: flex;
     position: relative;
     flex-direction: column;
@@ -14,7 +14,6 @@
 }
 
 .grid {
-    border: 1px solid deeppink;
     display: flex;
     position: relative;
     flex-direction: column;
@@ -29,7 +28,15 @@
     }
 }
 
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
 
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
 
 .grid-flow-col {
     grid-auto-flow: column;
