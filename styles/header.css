@@ -13,17 +13,19 @@
     }
 
     div:nth-child(3) {
-        margin-left: auto;
-    }
-
-    strong {
-        display: none;
+        justify-self: end;
     }
 
     div:nth-child(2) {
         img {
             width: 9rem;
         }
+    }
+}
+
+#primary {
+    strong {
+        display: none;
     }
 }
 
