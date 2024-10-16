@@ -47,21 +47,36 @@ img {
 }
 
 .container {
-  max-width: 37rem; /* largura maxima do container é a mesma das imgs (para q a sombra não exceda a largura da img na 1º section */
-  padding-inline: 1rem;
+  padding-inline: 2rem;
   margin-inline: auto;
+  max-width: 80em;
+
+  @media (max-width: 80em) {
+    padding-inline: 1rem;
+    width: 23.4375rem;
+  }
 }
 
 main {
-  margin-block: 1rem;
+  margin-block: 2.5rem;
   row-gap: 5rem;
   column-gap: 2rem;
-
   grid-template-columns: 2fr 1.4fr;
   grid-template-areas:
     "featured featured"
     "weekly weekly"
     "ai aside";
+
+  @media (max-width: 80em) {
+    margin-block: 1rem;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "featured"
+      "weekly"
+      "ai"
+      "aside";
+    gap: 2rem;
+  }
 }
 
 .content-tag {
@@ -76,14 +91,3 @@ main {
   box-shadow: 0px 0.25rem 1rem rgba(2, 6, 23, 0.25);
 }
 
-@media (min-width: 80em) {
-  .container {
-    max-width: none;
-    padding-inline: 2rem;
-    margin-inline: auto;
-  }
-
-  main {
-    margin-block: 2.5rem;
-  }
-}

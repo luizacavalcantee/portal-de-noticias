@@ -26,6 +26,17 @@ section header a:hover span {
 #featured {
     margin-block: 1rem;
     grid-area: featured;
+    @media (max-width: 80em) {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+
+        .mobile {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto auto auto auto;
+        }
+    }
 
     & #main-image {
         height: 26rem;
